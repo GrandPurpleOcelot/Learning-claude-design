@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Solutions Agency | Custom AI Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grain-overlay"></div>
+    <canvas id="matrix-bg" class="matrix-canvas"></canvas>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text">NEURAL</span>
+                <span class="logo-bracket">]</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services" data-text="Services">Services</a></li>
+                <li><a href="#features" data-text="Features">Features</a></li>
+                <li><a href="#about" data-text="About">About</a></li>
+                <li><a href="#contact" class="btn-nav">
+                    <span class="nav-btn-text">Initialize Contact</span>
+                    <span class="nav-btn-arrow">→</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-label">
+                    <span class="label-dot"></span>
+                    SYSTEM ONLINE
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">ENGINEERING</span>
+                    <span class="title-line title-line-offset">ARTIFICIAL</span>
+                    <span class="title-line title-line-highlight">INTELLIGENCE</span>
+                </h1>
+                <p class="hero-subtitle">Custom neural architectures. Production-grade automation. Zero compromise engineering.</p>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="stat-value">50+</div>
+                        <div class="stat-label">Deployments</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-value">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-value">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span class="btn-bg"></span>
+                        <span class="btn-text">Deploy Solution</span>
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        <span class="btn-text">Explore Systems</span>
+                        <span class="btn-icon">↓</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-corner-accent"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">[CAPABILITIES]</div>
+                <h2 class="section-title">System Architecture</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-index="01">
+                    <div class="card-accent"></div>
+                    <div class="service-number">01</div>
+                    <h3>Neural Network Development</h3>
+                    <p>Custom model architectures engineered for your specific problem domain. From computer vision to NLP.</p>
+                    <div class="service-tag">DEVELOPMENT</div>
+                </div>
+                <div class="service-card" data-index="02">
+                    <div class="card-accent"></div>
+                    <div class="service-number">02</div>
+                    <h3>Architecture Design</h3>
+                    <p>System-level AI integration strategy. Scalable infrastructure. Performance optimization.</p>
+                    <div class="service-tag">CONSULTING</div>
+                </div>
+                <div class="service-card" data-index="03">
+                    <div class="card-accent"></div>
+                    <div class="service-number">03</div>
+                    <h3>Process Automation</h3>
+                    <p>End-to-end workflow automation. Intelligent decision systems. Production-ready pipelines.</p>
+                    <div class="service-tag">AUTOMATION</div>
+                </div>
+                <div class="service-card" data-index="04">
+                    <div class="card-accent"></div>
+                    <div class="service-number">04</div>
+                    <h3>Data Intelligence</h3>
+                    <p>Real-time analytics engines. Predictive modeling. Pattern recognition at scale.</p>
+                    <div class="service-tag">ANALYTICS</div>
+                </div>
+                <div class="service-card" data-index="05">
+                    <div class="card-accent"></div>
+                    <div class="service-number">05</div>
+                    <h3>System Integration</h3>
+                    <p>Seamless deployment into existing infrastructure. API design. Cloud-native architecture.</p>
+                    <div class="service-tag">INTEGRATION</div>
+                </div>
+                <div class="service-card" data-index="06">
+                    <div class="card-accent"></div>
+                    <div class="service-number">06</div>
+                    <h3>Mission Control</h3>
+                    <p>24/7 monitoring. Performance tuning. Continuous model improvement. Zero downtime.</p>
+                    <div class="service-tag">SUPPORT</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="features-background">
+            <div class="feature-lines"></div>
+        </div>
+        <div class="container">
+            <div class="features-split">
+                <div class="features-left">
+                    <div class="section-label">[METRICS]</div>
+                    <h2 class="section-title">Performance Index</h2>
+                    <div class="metrics-grid">
+                        <div class="metric-item">
+                            <div class="metric-number">95%</div>
+                            <div class="metric-label">Accuracy Rate</div>
+                            <div class="metric-bar"></div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">10x</div>
+                            <div class="metric-label">Speed Increase</div>
+                            <div class="metric-bar"></div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">40%</div>
+                            <div class="metric-label">Cost Reduction</div>
+                            <div class="metric-bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-right">
+                    <div class="feature-blocks">
+                        <div class="feature-block">
+                            <div class="block-header">
+                                <span class="block-icon">▪</span>
+                                <span class="block-title">Custom Engineering</span>
+                            </div>
+                            <p>Zero template solutions. Every system architected from first principles for your domain.</p>
+                        </div>
+                        <div class="feature-block">
+                            <div class="block-header">
+                                <span class="block-icon">▪</span>
+                                <span class="block-title">Elite Engineering Team</span>
+                            </div>
+                            <p>PhD-level researchers. Production engineers. Published ML practitioners.</p>
+                        </div>
+                        <div class="feature-block">
+                            <div class="block-header">
+                                <span class="block-icon">▪</span>
+                                <span class="block-title">Battle-Tested Systems</span>
+                            </div>
+                            <p>Production deployments processing millions of requests. Proven at scale.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-grid-pattern"></div>
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-main">
+                    <div class="section-label">[ORGANIZATION]</div>
+                    <h2 class="about-title">Engineering Intelligence</h2>
+                    <div class="about-text">
+                        <p class="about-lead">We architect neural systems that solve real problems. No hype. No buzzwords. Just proven AI engineering deployed at production scale.</p>
+                        <p>Our team combines research-level ML expertise with battle-tested software engineering. We've built systems processing millions of inferences daily, handling critical business logic, operating in regulated environments.</p>
+                    </div>
+                    <div class="about-metrics">
+                        <div class="about-metric">
+                            <span class="metric-num">50+</span>
+                            <span class="metric-desc">Production Systems</span>
+                        </div>
+                        <div class="about-metric">
+                            <span class="metric-num">30+</span>
+                            <span class="metric-desc">Enterprise Clients</span>
+                        </div>
+                        <div class="about-metric">
+                            <span class="metric-num">5yr</span>
+                            <span class="metric-desc">Avg Deployment Life</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-sidebar">
+                    <div class="tech-stack">
+                        <div class="stack-label">STACK_</div>
+                        <div class="stack-items">
+                            <div class="stack-item">PyTorch</div>
+                            <div class="stack-item">TensorFlow</div>
+                            <div class="stack-item">Kubernetes</div>
+                            <div class="stack-item">FastAPI</div>
+                            <div class="stack-item">Redis</div>
+                            <div class="stack-item">PostgreSQL</div>
+                            <div class="stack-item">Docker</div>
+                            <div class="stack-item">MLflow</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-accent-line"></div>
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-header">
+                    <div class="section-label">[INITIALIZE_CONTACT]</div>
+                    <h2 class="contact-title">Deploy Your Solution</h2>
+                    <p class="contact-intro">Start with a technical consultation. We'll analyze your requirements and architect a custom solution.</p>
+                </div>
+                <div class="contact-layout">
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label>Name_</label>
+                                <input type="text" placeholder="John Smith" required>
+                            </div>
+                            <div class="form-field">
+                                <label>Email_</label>
+                                <input type="email" placeholder="john@company.com" required>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label>Organization_</label>
+                            <input type="text" placeholder="Your Company">
+                        </div>
+                        <div class="form-field">
+                            <label>Project_Brief_</label>
+                            <textarea placeholder="Describe your technical requirements, constraints, and objectives..." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-bg"></span>
+                            <span class="btn-text">Submit Request</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </form>
+                    <div class="contact-details">
+                        <div class="detail-block">
+                            <div class="detail-label">Direct_Contact</div>
+                            <div class="detail-item">
+                                <span class="detail-key">Email:</span>
+                                <span class="detail-value">engineering@neural.ai</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-key">Phone:</span>
+                                <span class="detail-value">+1 (555) 847-2193</span>
+                            </div>
+                        </div>
+                        <div class="detail-block">
+                            <div class="detail-label">Location</div>
+                            <div class="detail-item">
+                                <span class="detail-value">San Francisco, CA</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-value">Remote Worldwide</span>
+                            </div>
+                        </div>
+                        <div class="detail-block">
+                            <div class="detail-label">Response_Time</div>
+                            <div class="detail-item">
+                                <span class="detail-value response-time">
+                                    <span class="pulse-dot"></span>
+                                    &lt; 24 hours
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-bracket">[</span>
+                        <span class="logo-text">NEURAL</span>
+                        <span class="logo-bracket">]</span>
+                    </div>
+                    <p class="footer-tagline">Engineering artificial intelligence for production environments.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <div class="footer-col-title">Services_</div>
+                        <a href="#services">Development</a>
+                        <a href="#services">Consulting</a>
+                        <a href="#services">Integration</a>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-col-title">Company_</div>
+                        <a href="#about">About</a>
+                        <a href="#features">Metrics</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Neural Systems Inc.</span>
+                <span class="footer-divider">|</span>
+                <span>All systems operational</span>
+                <span class="status-indicator"></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
